@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+opencv-python-headless
+torch
+torchvision
+tqdm
+ipywidgets
+pillow
+requests
+scikit-learn
+scikit-image
+nibabel
+ipykernel
+streamlit
