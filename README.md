@@ -9,6 +9,9 @@ microscope images (Part 1) and tumours in brain MRI slices (Part 2).
 ![Cell segmentation](assets/cells.png)
 ![Brain MRI segmentation](assets/brain.png)
 
+## Live demo :
+https://unet-segmentation.streamlit.app/
+
 ## Features
 - U-Net built in PyTorch (Part 1: no padding, Part 2: padding and batch normalisation)
 - Streamlit app with sample images, image upload, a threshold slider, overlays and a Dice score
