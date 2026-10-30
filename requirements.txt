@@ -1,15 +1,8 @@
-numpy
-pandas
-matplotlib
-opencv-python-headless
-torch
-torchvision
-tqdm
-ipywidgets
-pillow
-requests
-scikit-learn
-scikit-image
-nibabel
-ipykernel
-streamlit
+   --extra-index-url https://download.pytorch.org/whl/cpu
+   torch
+   torchvision
+   numpy
+   opencv-python-headless
+   pillow
+   requests
+   streamlit

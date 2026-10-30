@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 import numpy as np
@@ -8,7 +9,10 @@ from predict import (
     load_cell_model, load_brain_model,
     cell_background, predict_cells,
     predict_brain, make_overlay, dice_score,
-)
+    )
+
+if not (os.path.exists("weights/unet_cells.pt") and os.path.exists("weights/unet_brain.pt")):
+    import download_weights
 
 st.set_page_config(page_title="U-Net Segmentation", layout="wide")
 
