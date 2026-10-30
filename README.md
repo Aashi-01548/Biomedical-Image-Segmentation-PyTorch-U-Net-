@@ -5,6 +5,10 @@ microscope images (Part 1) and tumours in brain MRI slices (Part 2).
 
 > Learning project. Not a medical device and not for diagnosis.
 
+## Demo
+![Cell segmentation](assets/cells.png)
+![Brain MRI segmentation](assets/brain.png)
+
 ## Features
 - U-Net built in PyTorch (Part 1: no padding, Part 2: padding and batch normalisation)
 - Streamlit app with sample images, image upload, a threshold slider, overlays and a Dice score
